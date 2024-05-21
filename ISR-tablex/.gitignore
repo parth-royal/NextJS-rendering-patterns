@@ -1,0 +1,31 @@
+
+/node_modules
+/.pnp
+.pnp.js
+
+/coverage
+
+/.next/
+/out/
+
+/build
+
+
+
+
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+
+
+# vercel
+.vercel
