@@ -35,7 +35,7 @@ export default function Home({ data, error }) {
 
 export async function getStaticProps() {
   try {
-    const res = await fetch('http://localhost:3001/api/tshirt'); // Adjust the URL accordingly
+    const res = await fetch('http://localhost:3000/api/tshirt'); // Adjust the URL accordingly
     if (!res.ok) {
       throw new Error(`Network response was not ok: ${res.status} ${res.statusText}`);
     }

@@ -115,7 +115,7 @@ import csv from 'csv-parser';
 export default function handler(req, res) {
   if (req.method === 'GET') {
     // Absolute path to the CSV file
-    const csvFilePath = '//home/alli/Desktop/0x0MAY21/vercel/SSR-table/db/large_data.csv';
+    const csvFilePath = '/home/alli/Desktop/0x0MAY22/git/NextJS-rendering-patterns/SSR-tablex/db/large_data.csv';
 
     // Create an empty array to store the parsed CSV data
     const data = [];

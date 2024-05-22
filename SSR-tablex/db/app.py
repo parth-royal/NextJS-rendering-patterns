@@ -5,7 +5,7 @@ import string
 # Define the number of rows in the CSV file
 # num_rows = 1000000  # Adjust this number to generate the desired size of the CSV file
 # num_rows = 1000  #32M
-num_rows = 100000 
+num_rows = 1000
 
 # Define the file name for the CSV file
 file_name = 'large_data.csv'
